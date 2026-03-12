@@ -1,7 +1,0 @@
-[
-  { "name": "Coffee", "price": 2.50, "category": "Drink" },
-  { "name": "Tea", "price": 2.00, "category": "Drink" },
-  { "name": "Sandwich", "price": 5.00, "category": "Meal" },
-  { "name": "Salad", "price": 4.50, "category": "N/A" },
-  { "name": "Pastry", "price": 3.00, "category": "N/A" }
-]
