@@ -1,0 +1,27 @@
+[
+  { "name": "Espresso", "price": 2.50, "category": "Drink" },
+  { "name": "Black Coffee", "price": 2.25, "category": "Drink" },
+  { "name": "Decaf Coffee", "price": 2.25, "category": "Drink" },
+  { "name": "Latte", "price": 3.00, "category": "Drink" },
+  { "name": "Dark Roast", "price": 2.50, "category": "Drink" },
+  { "name": "Tea (assorted flavours)", "price": 2.00, "category": "Drink" },
+
+  { "name": "Pancakes", "price": 4.00, "category": "Meal" },
+  { "name": "Full Breakfast", "price": 6.50, "category": "Meal" },
+  { "name": "Waffles", "price": 4.00, "category": "Meal" },
+  { "name": "Croissant", "price": 2.50, "category": "Meal" },
+  { "name": "Parfait", "price": 3.50, "category": "Meal" },
+  { "name": "French Toast", "price": 4.00, "category": "Meal" },
+
+  { "name": "Pie", "price": 3.50, "category": "N/A" },
+  { "name": "Ice Cream", "price": 2.50, "category": "N/A" },
+  { "name": "Cookies", "price": 1.50, "category": "N/A" },
+  { "name": "Cherry Cheesecake", "price": 3.75, "category": "N/A" },
+
+  { "name": "Soda", "price": 1.75, "category": "Drink" },
+  { "name": "Juice", "price": 2.00, "category": "Drink" },
+  { "name": "Milkshakes", "price": 3.00, "category": "Drink" },
+  { "name": "Hot Chocolate", "price": 2.25, "category": "Drink" },
+  { "name": "Lemonade", "price": 2.00, "category": "Drink" },
+  { "name": "Iced Tea", "price": 2.00, "category": "Drink" }
+]
