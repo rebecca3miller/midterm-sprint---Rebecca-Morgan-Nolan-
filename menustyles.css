@@ -5,11 +5,17 @@
     gap: 15px;
 }
 
+body {
+    background-image: url(images/IMG_0117.JPG);
+}
+
 main {
     padding: 20px;
     background-color: wheat;
     border: 2px solid black;
     font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: auto;
 }
 
 .bold {
