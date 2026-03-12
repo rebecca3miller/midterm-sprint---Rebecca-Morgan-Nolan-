@@ -1,0 +1,166 @@
+<!--
+	Semester 2 Sprint 1 - Twin Peaks Cafe Website
+	Name: Nolan Butt
+	Date: 2026-03-11
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Order Online - Café</title>
+	<link rel="stylesheet" href="Scripts/Order.css">
+</head>
+<body>
+	<div class="mainbox">
+	<header id="order-header">
+		<img src="images/cafelogo.png" alt="Twin Peaks Cafe Logo" class="logo">
+
+		<nav>
+			<a href="index.html">Home Page</a>
+			<a href="menu.html">Menu Page</a>
+			<a href="order.html">Order Page</a>
+		</nav>
+	</header>
+	
+    <main>
+
+		<section>
+			<script src="Scripts/Verify.js"></script>
+			
+			<form id="custInfo">
+				<h3 id="custHeader">Customer Information</h3>
+				<label for="Name">Full Name:</label>
+				<div class="slice-row-sides">
+					<div class="slice-rectangle">
+						<img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+						<input type="text" id="Name" required class="custinfo-input">
+						<img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+					</div>
+				</div>
+
+				<label for="Phone">Phone Number:</label>
+				<div class="slice-row-sides">
+					<div class="slice-rectangle">
+						<img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+						<input type="tel" id="Phone" required class="custinfo-input">
+						<img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+					</div>
+				</div>
+
+				<label for="Email">Email:</label>
+				<div class="slice-row-sides">
+					<div class="slice-rectangle">
+						<img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+						<input type="email" id="Email" required class="custinfo-input">
+						<img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+					</div>
+				</div>
+                <label for="Address">Address:</label>
+                <div class="slice-row-sides">
+                    <div class="slice-rectangle">
+                        <img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+                        <input type="text" id="Address" required class="custinfo-input">
+                        <img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+                    </div>
+                </div>
+			</form>
+		</section>
+
+		<section>
+			<div id="tablebox">
+				<h2><strong>Order Details</strong></h2>
+					<script src="Scripts/order.js"></script>
+					<table id="itemtable">
+						<thead>
+							<tr>
+								<th id="orderItemHeader">Item</th>
+								<th id="orderQuantityHeader">Quantity</th>
+								<th id="orderAddonHeader">Add Ons</th>
+								<th id="orderPriceHeader">Cost</th>
+							</tr>
+						</thead>
+
+						<tbody id="orderTable">
+							
+							
+									
+						</tbody>
+					</table>
+				</div>
+		</section>
+
+		<section>
+			<script src="Scripts/Submit.js"></script>
+				<h2 class="summaryHeader">Order Summary</h2>
+				<div class="pay-row">
+				<div id="orderSummary" class="pay-left">
+					<p id="subtotal">Subtotal: $0.00</p>
+					<p id="tax">Tax: $0.00</p>
+					<p id="total">Total: $0.00</p>
+				</div>
+				<div class="pay-right">
+					<label for="payment" class="rightLabel">Payment Information:</label>
+					<div class="slice-row-sides">
+						<div class="slice-rectangle">
+							<img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+							<input type="text" id="payment" name="payment" placeholder="Card Number" required class="custinfo-input">
+							<img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+						</div>
+					</div>
+					<label for="expDate" class="rightLabel">Expiration Date:</label>
+					<div class="slice-row-sides">
+						<div class="slice-rectangle">
+							<img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+							<input type="text" id="expDate" name="expDate" placeholder="MM/YY" required class="custinfo-input">
+							<img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+						</div>
+					</div>
+					<label for="cvv" class="rightLabel">CVV:</label>
+					<div class="slice-row-sides">
+						<div class="slice-rectangle">
+							<img src="images/Slice_1_2.png" alt="Slice Left" class="slice-side slice-left">
+							<input type="text" id="cvv" name="cvv" placeholder="CVV" required class="custinfo-input" maxlength="4">
+							<img src="images/Slice_1_1.png" alt="Slice Right" class="slice-side slice-right">
+						</div>
+					</div>
+				</div>
+				</div>
+				<button id="placeOrderBtn">Place Order</button>
+
+		</section>
+	</main>
+    <footer>
+        <div class="footercontent">
+
+        <div class="footersection">
+        <h3>Twin Peaks Cafe</h3>
+        <p>Cozy diner classics and fresh coffee in the heart of Twin Peaks.</p>
+        </div>
+
+        <div class="footersection">
+        <h4>Visit Us</h4>
+        <p>123 Main St, Twin Peaks, WA</p>
+        <p>(709) 123-1234</p>
+        <p>twinpeakscafe@email.com</p>
+        </div>
+
+        <div class="footersection">
+            <h4>Hours</h4>
+            <p>Monday - Friday</p>
+            <p>7:00 AM - 9:00 PM</p>
+            <p>Saturday - Sunday</p>
+            <p>8:00 AM - 10:00 PM</p>
+        </div>
+
+        </div>
+
+        <div class="footerbottom">
+            <p>2025 Twin Peaks Cafe</p>
+        </div>
+    </footer>
+
+	</div>
+</body>
+            
